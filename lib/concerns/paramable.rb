@@ -2,6 +2,7 @@ module Paramable
 
 module ClassMethods
 
+attr_accessor :name
 def @name
   name
 end
